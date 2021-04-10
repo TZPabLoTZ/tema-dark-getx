@@ -6,7 +6,7 @@ class SobreScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: fteamAppBar(),
+      appBar: fteamAppBar('Sobre Theme'),
       body: fteamBody(),
     );
   }
